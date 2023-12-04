@@ -1,0 +1,301 @@
+ul.navbar {
+
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
+
+li.nav-item {
+  float: left;
+  width: 20%;
+}
+
+li.nav-item a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+li.nav-item a:hover {
+  color: gray;
+}
+
+body {
+  background-color: black;
+}
+
+body,
+html {
+  height: 100%;
+}
+
+.hero-image {
+
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("white\ 911.png");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  color: white;
+  padding-top: 30px;
+  transform: translateY(-50px);
+  position: relative;
+  z-index: 2;
+  padding-left: 30px;
+  color: whitesmoke;
+  font-size: 18px;
+  text-align: left;
+  
+}
+
+.logo {
+  max-width: 60%;
+  min-width: 50%;
+}
+
+.button-87 {
+  padding: 15px 30px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  border-radius: 10px;
+  display: inline-block;
+  border: 0px;
+  font-weight: 700;
+  box-shadow: 0px 0px 14px -7px white;
+  background-image: linear-gradient(45deg, black 0%, black 51%, white 100%);
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  text-decoration: none;
+}
+
+.button-87:hover {
+  background-position: right center;
+  color: #fff;
+  text-decoration: none;
+}
+
+.button-87:active {
+  transform: scale(0.95);
+}
+
+.stars {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+  height: 150px;
+}
+
+#star_text {
+  text-align: center;
+  color: white;
+}
+
+#service_text {
+  color: gainsboro;
+  text-align: center;
+}
+.why_heading {
+  padding-top: 25px;
+  color:white;
+  text-align: center;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  color: white;
+  
+}
+
+#table_text_top {
+  color: red;
+}
+
+.table_text {
+  color: gainsboro
+}
+
+td,th {
+  border: 1px solid goldenrod;
+  text-align: left;
+  padding: 8px;
+}
+
+#center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.pricing_text {
+  color: white;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  text-align: center;
+}
+
+.why_paragraph {
+  color: gainsboro;
+  text-align: center;
+}
+#contact_head {
+  color: white;
+text-align: center;
+}
+#container {
+  padding-top: 45px;
+  text-align: center;
+  color: white;
+}
+#container h3 {
+  color: red
+}
+
+form label {
+color: white;
+}
+
+input[type=text] {
+  width: 500px;
+}
+
+textarea {
+  width: 472px;
+  height: 100px;
+}
+#thanks {
+  color: white;
+  font-size: 45px;
+  text-align: center;
+}
+.center_form {
+  text-align: center;
+}
+
+.inner_form {
+  width: 100%;
+  max-width: 530px;
+  margin: 0 auto;
+  text-align: left;
+  padding-left: 75px;
+  padding-right: 20px;
+}
+
+.inner_form input {
+  max-width: 90%;
+  box-sizing: border-box;
+}
+
+#container {
+  text-align: center;
+padding-bottom: 25px;
+}
+
+#services {
+  color: white;
+  text-align: center;
+  padding-bottom: 50px;
+}
+#services p { 
+  color: gray;
+}
+.outside a {
+  color: red;
+}
+* {
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
+
+.glambo {
+  display: flex;
+  width: 100%;
+  max-width: 800px;
+  gap: 3%;
+  margin: 0 auto;
+}
+
+.glambo img {
+  width: 30%;
+  border: 1px solid white;
+}
+
+.gstang {
+  display: flex;
+  width: 100%;
+  max-width: 800px;
+  gap: 3%;
+  margin: 0 auto;
+}
+
+.gstang img {
+  width: 30%;
+  border: 1px solid white;
+}
+
+.hawk {
+  display: flex;
+  width: 100%;
+  max-width: 800px;
+  gap: 3%;
+  margin: 0 auto;
+}
+
+.hawk img {
+  width: 30%;
+  border: 1px solid white;
+}
+
+.hoods {
+  display: flex;
+  width: 100%;
+  max-width: 800px;
+  gap: 3%;
+  margin: 0 auto;
+}
+
+.hoods img {
+  width: 30%;
+  border: 1px solid white;
+}
+
+.gt500 {
+  display: flex;
+  width: 100%;
+  max-width: 800px;
+  gap: 3%;
+  margin: 0 auto;
+}
+
+.gt500 img {
+  width: 30%;
+  border: 1px solid white;
+}
+
+.vids {
+  padding-top: 55px;
+  min-width: 500px;
+}
+.vids h1 {
+  color: red;
+}
+
+.audi {
+  max-width: 800px;
+  min-width: 100%;
+}
